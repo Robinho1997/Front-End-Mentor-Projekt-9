@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+
+
+body {
+    background-image: url(/images/bg-desktop.svg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-color:  hsl(257, 40%, 49%);
+    font-family: open sans;
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 10%;
+   
+    
+    
+   
+}
+
+.register {
+    padding: 3% 15% 3% 15%;
+    border-radius: 3rem;
+    border-style: none;
+    color: blueviolet;
+    font-size: larger;
+}
+
+
+
+footer img {
+width: 3%;
+
+
+}
+
+footer {
+    
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: flex-end;
+    
+    
+}
+
+@media (max-width:450px) {
+    .img {
+        width: 100%;
+    }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+footer img {
+    width: 10%;
+}
+
+
+
+.container {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    
+    
+}
+
+.register {
+    margin-top: 2rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
